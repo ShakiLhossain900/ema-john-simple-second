@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Cart = (props) => {
-    const carta = props.cart;
+    const shakil = props.cart;
     let total =0;
-    for(let i=0; i<carta.length; i++){
-        const product = carta[i];
-        total = total + product.price;
+    for(let i=0; i<shakil.length; i++){
+        const newthink = shakil[i];
+        total = total + newthink.price;
     }
     let shipping =0
     if(total>15){
@@ -22,7 +22,7 @@ const Cart = (props) => {
     return (
         <div>
             <h4>Order summary</h4>
-            <p>Items Ordered: {carta.length}</p>
+            <p>Items Ordered: {shakil.length}</p>
             <p>Total Price :{formentNumber(total)}</p>
             <p>Shipping Cost :{formentNumber(shipping)}</p>
             <p>total with tex : {formentNumber(tax+total)}</p>
