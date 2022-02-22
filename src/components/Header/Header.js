@@ -9,7 +9,7 @@ const Header = () => {
             <nav>
                 <a href="/shop"> Shop</a>
                 <a href="/review">Order review</a>
-                <a href="/manage">Order</a>
+                <a href="/inventory">Mange Inventory here</a>
                 </nav>
         </div>
     );
